@@ -33,3 +33,16 @@ rm ~/Library/.localized
 
 rm /Applications/.localized
 ```
+
+only python3 is installed.
+
+install python2
+
+https://zenn.dev/satokazur222/articles/66568417b291d8
+
+```
+brew install java
+```
+
+
+
