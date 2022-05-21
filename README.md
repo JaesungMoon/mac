@@ -16,3 +16,20 @@ https://torazuka.hatenablog.com/entry/20140724/smart
 
 defaults write com.apple.dock mineffect -string scale
 
+
+初期日本語の mac folder 名を英語に変更
+https://qiita.com/narikei/items/60cdedf0efb616dd0bcd
+
+```
+rm ~/Applications/.localized
+rm ~/Documents/.localized
+rm ~/Downloads/.localized
+rm ~/Desktop/.localized
+rm ~/Public/.localized
+rm ~/Pictures/.localized
+rm ~/Music/.localized
+rm ~/Movies/.localized
+rm ~/Library/.localized
+
+rm /Applications/.localized
+```
