@@ -44,5 +44,11 @@ https://zenn.dev/satokazur222/articles/66568417b291d8
 brew install java
 ```
 
+show hidden files
+```
+~/Documents % defaults write com.apple.Finder AppleShowAllFiles true
+~/Documents % killall Finder
+```
+
 
 
