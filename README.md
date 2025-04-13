@@ -1,5 +1,32 @@
 # mac
 
+## plantuml を vs code でうまく表示されない場合
+
+vs code で plantuml extension を入れたけど下記のようなエラーになる。
+
+```
+java.io.IOException: Cannot run program "/opt/local/bin/dot": error=2, No such file or directory
+```
+
+```
+brew install dot
+```
+はダメで、下記を入れる。
+
+```
+brew install graphviz
+```
+
+https://github.com/sitoolkit/sit-cv/blob/develop/README.md
+
+※javaも前もってinstallしている。
+
+## code . ように vs code 起動
+
+コマンドパレットを開く(cmd+shift+p)
+"Shell Command: Install 'code' command in PATH"を選択
+<https://qiita.com/noto_web/items/eb5d6a904c459b8c6dea>
+
 ## for coding, off caps lock, etc...
 
 システム設定 > キーボード > キーボード > 修飾キー > Caps Lock - アクションなし
