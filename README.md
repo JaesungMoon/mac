@@ -17,9 +17,12 @@ brew install dot
 brew install graphviz
 ```
 
-https://github.com/sitoolkit/sit-cv/blob/develop/README.md
+<https://github.com/sitoolkit/sit-cv/blob/develop/README.md>
 
 ※javaも前もってinstallしている。
+
+同じ内容のqiitaがあった。
+<https://qiita.com/tomokei5634/items/48ce7b61c76238ce7d5a>
 
 ## code . ように vs code 起動
 
