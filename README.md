@@ -1,14 +1,23 @@
 # mac
 
+## Terminal Setup
+
+```shell
+# export PS1='%~ %# '
+
+# show only last path
+export PS1='%1~ %# '
+```
+
 ## plantuml を vs code でうまく表示されない場合
 
 vs code で plantuml extension を入れたけど下記のようなエラーになる。
 
-```
+```shell
 java.io.IOException: Cannot run program "/opt/local/bin/dot": error=2, No such file or directory
 ```
 
-```
+```shell
 brew install dot
 ```
 はダメで、下記を入れる。
